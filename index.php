@@ -13,7 +13,7 @@
 <body>
     <script type="text/template" id="userTemplate">
         <span>Hi</span>
-        <%= user_name %>
+        <%= name %>
         <div>Users list</div>
         <div>User details</div>
     </script>
