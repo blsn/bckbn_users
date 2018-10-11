@@ -8,16 +8,14 @@
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
-    <script src="userlist.js"></script>
 </head>
 <body>
     <script type="text/template" id="userTemplate">
-        <span>Hi</span>
-        <%= name %>
-        <div>Users list</div>
-        <div>User details</div>
+        <p>Hello <%= name %></p>
     </script>
     
     <div id="users"></div>
+
+    <script src="userlist.js"></script>
 </body>
 </html>
